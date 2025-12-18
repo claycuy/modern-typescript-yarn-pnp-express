@@ -1,4 +1,23 @@
 {
-  "name": "replicator-couch-db",
-  "packageManager": "yarn@4.9.1"
+  "name": "modern-expressjs-with-typescript",
+  "type": "module",
+  "packageManager": "yarn@4.12.0",
+  "scripts": {
+    "build": "tsc -b && rollup -c --bundleConfigAsCjs",
+    "start": "node ./dist/index.js",
+    "dev-start__1": "nodemon --watch 'src/**' --ext 'ts' --exec 'yarn build && node ./dist/main.js'"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "pouchdb": "^9.0.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "nodemon": "^3.1.11",
+    "rollup": "^4.53.5",
+    "tslib": "^2.8.1"
+  }
 }
