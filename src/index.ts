@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hello from Express -12 !');
+  res.send('Change me, and refresh it!');
 });
 
 app.listen(port, () => {
