@@ -16,7 +16,7 @@ It use:
 
 Install [yarn](https://yarnpkg.com/getting-started/install)
 
-```
+```bash
 # Install corepack if you don't have it
 > npm install -g corepack
 # Set yarn to stable version
@@ -27,13 +27,13 @@ Install [yarn](https://yarnpkg.com/getting-started/install)
 
 Enable [Editor Sdks for yarn](https://yarnpkg.com/getting-started/editor-sdks)
 
-```
+```bash
 > yarn dlx @yarnpkg/sdks vscode
 ```
 
 ## How to run
 
-```
+```bash
 # Build the project
 > yarn build
 # Run the project
