@@ -1,8 +1,8 @@
 # Modern express.js with TypeScript
 
-A minimal boilerplate for building express.js application with TypeScript and yarn PnP. Why yarn PnP? Because it is fast and modern package manager.
+A **minimal boilerplate** for building [express.js](https://expressjs.com/) application with [TypeScript](https://www.typescriptlang.org) and yarn PnP. Why yarn PnP? Because it is fast and modern package manager.
 
-It also use Rollup.js to bundle the application for production. I create `bin` folder to store some script to run the application.
+It also use [Rollup.js](https://rollupjs.org) to bundle the application for production. I create `bin` folder to store some script to run the application.
 
 It use:
 - TypeScript
